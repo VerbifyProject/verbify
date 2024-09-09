@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verbify</title>
+  <link rel="icon" type="image/x-icon" href="./images/verbifytransparent.png">
+  <script src="https://kit.fontawesome.com/4e794a5347.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/vocabulary.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Verbify</h1>
+    <h2>Vocabulary</h2>
+    <div class="language-btn-container">
+      <select id="languageSelect" class="language-select" aria-label="Select Language">
+        <option value="spanish">Spanish</option>
+        <option value="german">German</option>
+        <option value="russian">Russian</option>
+        <option value="japanese">Japanese</option>
+    </select>
+    </div>
+  </div>
+  <input type="text" id="searchInput" onkeyup="searchVerbs()" placeholder="Search for a verb..">
+  <ul id="vocabularyList" class="vocabulary-list"></ul>
+  <div class="navbar">
+    <a href="vocabulary.html" class="navButtons"><i class="fas fa-list"></i></a>
+    <a href="index.html" class="navButtons"><i class="fas fa-home"></i></a>
+    <a href="leaderboard.html" class="navButtons"><i class="fas fa-trophy"></i></a>
+  </div>
+
+  <script src="./scripts/vocabulary.js" type="module"></script>
+</body>
+
+</html>
