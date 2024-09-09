@@ -1,2 +1,2 @@
-# verbify
-A language learning website and application.
+# Verbify
+> A language learning website and application.
